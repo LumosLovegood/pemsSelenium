@@ -11,7 +11,7 @@
 - 开放重新设定时间间隔`interval`和重新读取文件的接口。
 - 具有`download_by_Urls`和`download_by_Autofill`两种下载模式可供选择。
   - `download_by_Urls`：通过下载链接直接下载，速度较快。
-  - `download_by_Autofill`：通过浏览器模拟输入表单下载，速度较慢。但是看着浏览器自动操作，有一种==**很治愈**==的感觉。
+  - `download_by_Autofill`：通过浏览器模拟输入表单下载，速度较慢。但是看着浏览器自动操作，有一种**很治愈**的感觉。
 
 ## Prerequisites
 
@@ -33,8 +33,9 @@
 
 ### Data format
 
-程序支持读取excel文件内的数据格式如下图所示，点击下载[示例数据](https://github.com/LumosLovegood/pemsSelenium/blob/main/example_data.xlsx)。
-![Example data](example_data.jpg)
+程序支持读取excel文件内的数据格式如下图所示，点击查看[示例数据](https://github.com/LumosLovegood/pemsSelenium/blob/main/example_data.xlsx)。<br>
+
+![Example data](example_data.png)
 
 
 ## Getting start
@@ -79,7 +80,7 @@
   ps.download_by_Autofill(pd.dataset)
   ```
 
-- ==Notice==: 选择文件下载路径时务必保证路径下为空，最好***新建一个文件夹***进行下载。（涉及文件移动以及重命名操作）
+- ***Notice***: 选择文件下载路径时务必保证路径下为空，最好***新建一个文件夹***进行下载。（涉及文件移动以及重命名操作）
 
 
 
@@ -153,6 +154,6 @@
 
 Thanks for [@SeleniumHQ](https://github.com/SeleniumHQ/selenium) for the open-source project.
 
-Special thanks to Dazhi_ for the dataset.
+Special thanks to ***Dazhi_*** for the dataset.
 
 
